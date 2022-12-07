@@ -13,24 +13,41 @@
             justify-content:center;
             font-family:sans-serif;
         }
-        #quadrado{
+        button.quadrado{
             background: black;
             width: 100px;
             height: 100px;
         }
-        button{
-            width:150px;
-            height:150px;
-            border-radius: 4px;
-            align-items: left;
+        div.buttons{
+            display: flex;
+            align-items: center;
+            grid: center;
+            justify-content: center;
         }
+        button.esquerda{
+            width: 200px;
+            height: 200px;
+        }
+        button.center{
+            width: 200px;
+            height: 200px;
+        }
+        button.direita{
+            width: 200px;
+            height: 200px;
+        }
+
     </style>
 </head>
 <body>
     <div class="titulo">
     <h1>CopaAluga</h1>
-    <br><br><br>
-    <button></button>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="buttons">
+    <button class="esquerda"></button>
+    <button class="center"></button>
+    <button class="direita"></button>
     </div>
 </body>
 </html>
