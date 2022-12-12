@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aluguel</title>
 
     <style>
-        h1{
-            display:grid;
+
+    *{
+        margin: 0px;
+    }
+
+        header{
             justify-content:left;
-            font-family:sans-serif;
+            font-family:impact;
             margin-bottom: 50px;
-            margin-top: 30px;
+            font-size: 40px;
             background-color: #4F4F4F;
-            color: black;
+            color: darkgoldenrod;
             width: 1370px;
+            height: 60px;
+            border:solid #4F4F4F 10px;
         }
         h2{
             justify-content: center;
             display: grid;
             font-family:sans-serif;
             margin-top: 30px;
+            margin-bottom: 50px;
         }
-        button.quadrado{
-            background: black;
-            width: 100px;
-            height: 100px;
-        }
+        
         div.buttons{
             display: flex;
             align-items: center;
@@ -36,32 +39,44 @@
         }
         button.esquerda{
             height: 215px;
-            width: 270px;
+            width: 285px;
             margin-right: 40px;
             border-radius: 4px;
+            display: grid;
+            justify-content: center;
+            border-width: 3px;
         }
         button.center{
             width: 270px;
             height: 215px;
             border-radius: 4px;
+            border-width: 3px;
         }
         button.direita{
+            border-width: 3px;
             width: 270px;
             height: 215px;
             border-radius: 4px;
             margin-left: 40px;
         }
-        
+
     </style>
 </head>
 <body>
     <div class="titulo">
-    <h1>CopaAluga</h1>
-    </div>
+    <header>CopaAluga</header>
+    </div> 
     <h2>Carros para alugar</h2>
     <div class="buttons">
-    <button class="esquerda"></button>
-    <button class="center"></button>
+
+    <button class="esquerda">
+        <img src="https://i0.statig.com.br/bancodeimagens/imgalta/9p/6b/2g/9p6b2gohcupc14yfy5f3mnjx2.jpg" height="208px" width="279px"  />
+    </button>
+
+    <button class="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/VW_Virtus_MSI_%28Brazil%2C_front_view%29.png" height="208px" width="279px" />
+    </button>
+
     <button class="direita"></button>
     </div>
 </body>
