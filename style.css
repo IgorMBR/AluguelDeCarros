@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+
+    header{
+        justify-content:left;
+        font-family:impact;
+        margin-bottom: 50px;
+        font-size: 40px;
+        background-color: #4F4F4F;
+        color: darkgoldenrod;
+        width: 1370px;
+        height: 60px;
+        border:solid #4F4F4F 10px;
+    }
+    h2{
+        justify-content: center;
+        display: grid;
+        font-family:sans-serif;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    
+    div.buttons{
+        display: flex;
+        align-items: center;
+        grid: center;
+        justify-content: center;
+    }
+    button.esquerda{
+        height: 215px;
+        width: 285px;
+        margin-right: 40px;
+        border-radius: 4px;
+        display: grid;
+        justify-content: center;
+        border-width: 3px;
+    }
+    button.center{
+        width: 285px;
+        height: 215px;
+        border-radius: 4px;
+        border-width: 3px;
+        display: grid;
+        justify-content: center;
+
+    }
+    button.direita{
+        border-width: 3px;
+        width: 285px;
+        height: 215px;
+        border-radius: 4px;
+        margin-left: 40px;
+        display: grid;
+        justify-content: center;
+    }
+    div.mobi{
+        display:flex;
+        align-items: center;
+        grid: center;
+        justify-content: center;
+    }
