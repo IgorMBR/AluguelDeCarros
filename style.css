@@ -52,11 +52,4 @@
         border-radius: 4px;
         margin-left: 40px;
         display: grid;
-        justify-content: center;
-    }
-    div.mobi{
-        display:flex;
-        align-items: center;
-        grid: center;
-        justify-content: center;
-    }
+    }   
